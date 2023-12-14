@@ -22,7 +22,7 @@ import Scrollbar from 'src/components/scrollbar';
 
 import { NAV } from './config-layout';
 import navConfig from './config-navigation';
-import img1 from './img/sna.jpg'
+
 // ----------------------------------------------------------------------
 
 export default function Nav({ openNav, onCloseNav }) {
@@ -68,6 +68,7 @@ export default function Nav({ openNav, onCloseNav }) {
         <NavItem key={item.title} item={item} />
       ))}
     </Stack>
+    
   );
 
   const renderUpgrade = (
@@ -75,7 +76,7 @@ export default function Nav({ openNav, onCloseNav }) {
       <Stack alignItems="center" spacing={3} sx={{ pt: 5, borderRadius: 2, position: 'relative' }}>
         <Box
           component="img"
-          src={img1}
+          src='././../../../public/assets/images/avatars/avatar_25.jpg'
           sx={{ width: 100, position: 'absolute', top: -50 }}
         />
 
@@ -88,8 +89,7 @@ export default function Nav({ openNav, onCloseNav }) {
         </Box>
 
         <Button
-          href="https://material-ui.com/store/items/minimal-dashboard/"
-          target="_blank"
+          href="https://web.facebook.com/Sna.Mr.XD"
           variant="contained"
           color="inherit"
         >

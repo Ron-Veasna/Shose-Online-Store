@@ -11,7 +11,7 @@ const LANGS = [
   {
     value: 'en',
     label: 'English',
-    icon: '/assets/icons/ic_flag_en.svg',
+    icon: '/public/assets/icons/ic_flag_en.svg',
   },
   {
     value: 'de',
@@ -21,7 +21,7 @@ const LANGS = [
   {
     value: 'fr',
     label: 'China',
-    icon: '/assets/icons/ic_flag_ch.svg',
+    icon: '/public/assets/icons/Flag_of_China.jpg',
   },
 ];
 
@@ -50,7 +50,7 @@ export default function LanguagePopover() {
           }),
         }}
       >
-        <img src={LANGS[0].icon} alt={LANGS[0].label} />
+        <img src={LANGS[1].icon} alt={LANGS[1].label} />
       </IconButton>
 
       <Popover
