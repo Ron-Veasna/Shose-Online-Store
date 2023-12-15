@@ -14,12 +14,12 @@ const LANGS = [
     icon: '/public/assets/icons/ic_flag_en.svg',
   },
   {
-    value: 'de',
+    value: 'kh',
     label: 'Khmer',
     icon: '/public/assets/icons/Flag_of_Cambodia.svg.png',
   },
   {
-    value: 'fr',
+    value: 'ch',
     label: 'China',
     icon: '/public/assets/icons/Flag_of_China.jpg',
   },
