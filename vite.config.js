@@ -14,6 +14,7 @@ export default defineConfig({
       },
     }),
   ],
+  base: "/Shose-Online-Store/",
   resolve: {
     alias: [
       {
